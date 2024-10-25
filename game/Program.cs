@@ -102,7 +102,7 @@ namespace game
                 {
                     Console.WriteLine("would you like to play agian");
                     again = Console.ReadLine().ToLower();
-
+                    Console.Clear();
 
 
                     if (again == "no")
